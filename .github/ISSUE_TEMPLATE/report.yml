@@ -1,0 +1,61 @@
+name: Report a problem
+description: Tell us what went wrong with Aerolux.
+labels: ["user-report"]
+body:
+  - type: markdown
+    attributes:
+      value: "Reports here are public. Read any file before sharing it."
+  - type: dropdown
+    id: build
+    attributes:
+      label: Which build are you using?
+      options:
+        - Release
+        - Beta copy (NVIDIA + Intel)
+        - Lite AA
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Find this in the Aerolux panel. Aerolux may fill this in for you.
+      placeholder: "For example: 1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Tell us what you saw and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      description: List the steps, starting with opening X-Plane.
+    validations:
+      required: true
+  - type: input
+    id: graphics
+    attributes:
+      label: Graphics card and driver version
+      placeholder: "For example: Radeon RX 7800 XT, driver 24.1.1"
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Attach the report file
+      description: "Aerolux can make Output\\Aerolux\\aerolux-report.txt. It removes known personal folders and names. Open and review it, then drag it into this box."
+      placeholder: "Drag the report file here."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before posting
+      options:
+        - label: I read the report file and it has nothing private in it.
+          required: true
