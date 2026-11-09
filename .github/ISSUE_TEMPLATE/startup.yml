@@ -1,0 +1,33 @@
+name: Startup check
+description: Get help when Aerolux does not start.
+labels: ["startup"]
+body:
+  - type: markdown
+    attributes:
+      value: "Reports here are public. Read any file before sharing it."
+  - type: input
+    id: version
+    attributes:
+      label: Aerolux version
+      description: If you can see the version, enter it here.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happens when you start X-Plane?
+    validations:
+      required: true
+  - type: textarea
+    id: startup-check
+    attributes:
+      label: Attach startup-check.txt
+      description: "Open Output\\Aerolux\\startup-check.txt, remove anything private, then drag the file here."
+      placeholder: "Drag startup-check.txt here, or tell us if it is missing."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before posting
+      options:
+        - label: I checked my attachment for private information.
+          required: true
