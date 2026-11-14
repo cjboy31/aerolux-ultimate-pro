@@ -1,7 +1,8 @@
 # Aerolux Ultimate Pro: Aviators Edition
 
-This is the download and support page for Aerolux Ultimate Pro: Aviators Edition for X-Plane 12. The project is being prepared for release. No Aviators Edition download has been published here yet.
+Aerolux Ultimate Pro: Aviators Edition 1.0.0 is available for X-Plane 12 on Windows.
 
+- [Download 1.0.0 and Aerolux Manager](../../releases/tag/v1.0.0)
 - [Getting started](GUIDE.md)
 - [Ask a question or share ideas](../../discussions)
 - [Report a problem](../../issues/new?template=report.yml)
