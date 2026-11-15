@@ -1,6 +1,6 @@
 # Getting started
 
-Download the [Windows release](../../releases/tag/v1.0.0). To use Aerolux Manager, extract its ZIP to a writable folder and run XPlaneFSR24.exe with X-Plane closed. Select your simulator copy and open the Aerolux Ultimate Pro page to install or update.
+Download the [Windows release](../../releases/tag/v1.0.1). To use Aerolux Manager, extract its ZIP to a writable folder and run XPlaneFSR24.exe with X-Plane closed. Select your simulator copy and open the Aerolux Ultimate Pro page to install or update.
 
 For a manual install, follow INSTALL-ONE-FOLDER.txt in the plugin ZIP. After starting X-Plane, open Plugins > Aerolux Ultimate Pro: Aviators Edition > Open settings.
 
