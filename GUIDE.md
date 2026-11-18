@@ -1,6 +1,6 @@
 # Getting started
 
-Download [Release](../../releases/latest) or [Beta](../../releases/tag/v1.0.1-test.68) with X-Plane closed.
+Download [Release](../../releases/latest) or [Beta](../../releases/tag/v1.0.1-test.71) with X-Plane closed.
 
 For a manual install, follow INSTALL-ONE-FOLDER.txt inside the ZIP. Copy its XPFSR24 folder into your X-Plane 12 Resources/plugins folder and run IntegrationSetup.exe from that installed folder. After starting X-Plane, open Plugins > Aerolux Ultimate Pro: Aviators Edition > Open settings.
 
@@ -10,7 +10,7 @@ Neural Lighting for Stock Clouds starts Off. Neural Rendering uses a compatible 
 
 ## Ray tracing in Beta
 
-Open World, then Ray tracing. Enable the effects you want and restart X-Plane. Aerolux traces a simplified terrain and aircraft scene. The panel shows which denoisers are running and when Keep my FPS pauses an effect.
+Open World, then Ray tracing. Enable the effects you want and restart X-Plane. Aerolux traces a simplified terrain and aircraft scene. The panel shows which denoisers are running and when Keep my FPS pauses an effect. Vulkan is the default shadow ray engine. To try DirectX 12, select it under Shadow ray engine and restart X-Plane. The panel shows which engine started. Microsoft's clustered geometry also requires a supported driver and a locally installed preview runtime.
 
 NRD filters, RTXDI GI reuse and SHARC caching run through Vulkan. AMD Ray Regeneration needs supported AMD hardware. NVIDIA Ray Reconstruction needs an NVIDIA RTX GPU and DLSS selected. NVIDIA RTX flight verification remains a community hardware check.
 
