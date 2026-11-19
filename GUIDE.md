@@ -1,6 +1,6 @@
 # Getting started
 
-Download [Release](../../releases/latest) or [Beta](../../releases/tag/v1.0.1-test.71) with X-Plane closed.
+Download [Release](../../releases/latest) or [Beta](../../releases/tag/v1.0.1-test.72) with X-Plane closed.
 
 For a manual install, follow INSTALL-ONE-FOLDER.txt inside the ZIP. Copy its XPFSR24 folder into your X-Plane 12 Resources/plugins folder and run IntegrationSetup.exe from that installed folder. After starting X-Plane, open Plugins > Aerolux Ultimate Pro: Aviators Edition > Open settings.
 
