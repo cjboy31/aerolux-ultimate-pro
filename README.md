@@ -2,13 +2,14 @@
 
 Aerolux Ultimate Pro: Aviators Edition for X-Plane 12 on Windows.
 
-- [Release](../../releases/latest) includes Aerolux Manager, Neural Rendering with a locally imported model, and Neural Lighting for Stock Clouds.
-- [Beta](../../releases/tag/v1.0.1-test.155) includes a DirectX 12 option for ray-traced shadows, path-traced bounce light and vendor denoisers alongside Neural Rendering and Neural Lighting for Stock Clouds. It offers a [smaller download](../../releases/tag/v1.0.1-test.4) with AMD FSR, NVIDIA DLSS, frame generation, Neural Rendering, Head and Body Motion and the simple panel, without the DirectX 12, ray tracing and sky, cloud and world features.
-- [Aerolux Head and Body Motion](../../releases/tag/head-motion-1.0.0-test.2) is the Beta's head and body motion on its own, as a separate X-Plane 12 plugin for Windows.
-- [Download the Linux Preview](../../releases/tag/v1.0.0-linux-preview.1)
-- [Getting started](GUIDE.md)
+- [Download Aviators Edition 1.1.0](../../releases/tag/v1.1.0)
+- [Aerolux Human Dynamics](../../releases/tag/head-motion-1.0.0-test.7) is the standalone head and body motion plugin for Windows.
+- [Earlier Linux preview](../../releases/tag/v1.0.0-linux-preview.1)
 - [Ask a question or share ideas](../../discussions)
 - [Report a problem](../../issues/new?template=report.yml)
 
-Issue reports and discussions in this repository are public. Check files for personal information before sharing them.
+Aviators Edition includes AMD FSR and frame generation, NVIDIA DLSS, DLAA, frame generation and Reflex, anti-aliasing options, CPU and GPU helpers, Human Dynamics, Clear points and Compact 737 lights.
 
+To update, close X-Plane and open Aerolux Manager. For a fresh install, follow the instructions on the download page.
+
+Issue reports and discussions in this repository are public. Check files for personal information before sharing them.
