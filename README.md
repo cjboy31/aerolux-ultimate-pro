@@ -3,7 +3,7 @@
 Aerolux Ultimate Pro: Aviators Edition for X-Plane 12 on Windows.
 
 - [Download Aviators Edition 1.1.0](../../releases/tag/v1.1.0)
-- [Aerolux Human Dynamics](../../releases/tag/head-motion-1.0.0-test.7) is the standalone head and body motion plugin for Windows.
+- [Aerolux Human Dynamics](../../releases/tag/head-motion-1.0.0-test.28) is the standalone head and body motion plugin for Windows.
 - [Earlier Linux preview](../../releases/tag/v1.0.0-linux-preview.1)
 - [Ask a question or share ideas](../../discussions)
 - [Report a problem](../../issues/new?template=report.yml)
